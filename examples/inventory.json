@@ -1,0 +1,31 @@
+{
+  "components": [
+    {
+      "id": "example-pcb-r1",
+      "designator": "R1",
+      "kind": "R",
+      "value": "10k",
+      "side": "top",
+      "populated": true,
+      "value_source": "演示数据：实际使用时替换为已核实的工程属性或装配版本 BOM"
+    },
+    {
+      "id": "example-pcb-c3",
+      "designator": "C3",
+      "kind": "C",
+      "value": "100nF",
+      "side": "bottom",
+      "populated": true,
+      "value_source": "演示数据：实际使用时替换为已核实的工程属性或装配版本 BOM"
+    },
+    {
+      "id": "example-pcb-r8",
+      "designator": "R8",
+      "kind": "R",
+      "value": "",
+      "side": "top",
+      "populated": false,
+      "value_source": "演示数据：未装配，名义值未知，不推断"
+    }
+  ]
+}

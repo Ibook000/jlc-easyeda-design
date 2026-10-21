@@ -1,0 +1,13 @@
+interface:
+  display_name: 嘉立创 EDA 原理图与 PCB 设计
+  short_description: 统一原理图审核、PCB 布局布线、参数读回和器件值丝印检查
+  default_prompt: 使用 $jlc-easyeda-design 完成嘉立创 EDA 原理图与 PCB 设计，并在丝印层显示电阻电容等器件的实际值。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

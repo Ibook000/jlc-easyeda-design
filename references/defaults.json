@@ -1,0 +1,31 @@
+{
+  "version": "1.0.1",
+  "scope": "普通低压 FR-4、1 oz；使用前核实实际工艺、器件资料和工程条件",
+  "units": "mm",
+  "pcb": {
+    "signal_width": 0.20,
+    "signal_clearance": 0.20,
+    "scoped_exception_width": 0.15,
+    "scoped_exception_clearance": 0.15,
+    "via_outer": 0.60,
+    "via_drill": 0.30,
+    "scoped_exception_via_outer": 0.50,
+    "scoped_exception_via_drill": 0.25,
+    "copper_to_edge": 0.50,
+    "copper_pour_clearance": 0.25,
+    "power_width_candidate_requires_calculation": 0.50
+  },
+  "silkscreen": {
+    "designator_required": true,
+    "value_required": true,
+    "same_side_as_component": true,
+    "font_height_target": 1.00,
+    "stroke_target": 0.15,
+    "font_height_candidate_floor_requires_process_check": 0.80,
+    "stroke_candidate_floor_requires_process_check": 0.12,
+    "ink_to_mask_opening_target": 0.20,
+    "ink_to_mask_opening_candidate_floor_requires_process_check": 0.15,
+    "missing_space_policy": "relocate, wrap, rotate, verified minimum, same-side callout, report unresolved",
+    "allow_silent_hide": false
+  }
+}
