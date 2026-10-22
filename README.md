@@ -6,7 +6,7 @@
 
 ## 原理图示例
 
-[![原理图整理效果示例](assets/examples/schematic-keyboard.png)](assets/examples/schematic-keyboard.png)
+[![原理图整理效果示例](https://raw.githubusercontent.com/Ibook000/jlc-easyeda-design/main/assets/examples/schematic-keyboard.png)](https://github.com/Ibook000/jlc-easyeda-design/blob/main/assets/examples/schematic-keyboard.png)
 
 原理图整理效果示例，点击图片查看原图。
 
