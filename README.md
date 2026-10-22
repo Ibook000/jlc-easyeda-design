@@ -4,6 +4,12 @@
 
 **当前版本：1.0.1** · **MIT License**
 
+## 原理图示例
+
+[![原理图整理效果示例](assets/examples/schematic-keyboard.png)](assets/examples/schematic-keyboard.png)
+
+原理图整理效果示例，点击图片查看原图。
+
 ## 能做什么
 
 | 任务 | 关注点 |
@@ -121,7 +127,9 @@ API 返回成功后还要读回核对。ERC、DRC、Gerber 或制造检查未执
 jlc-easyeda-design/
 ├── SKILL.md                         # 技能入口与统一流程
 ├── agents/openai.yaml               # 技能展示与调用配置
-├── assets/icon.svg                  # 技能图标
+├── assets/
+│   ├── icon.svg                     # 技能图标
+│   └── examples/schematic-keyboard.png # 原理图展示示例
 ├── examples/inventory.json          # 可运行的演示器件清单
 ├── references/
 │   ├── api-workflow.md              # 桥接连接与 API 适配
