@@ -47,6 +47,8 @@ if (valueAttr) {
 - 按当前签名，器件 `setAttribute(key, value, keyVisible, valueVisible)` 可创建关联属性，
   返回的属性图元再用 `pcb_PrimitiveAttribute.modify()` 放到正确丝印层和位置。
 - 例如创建专用 `SilkValue` 属性时先确认键没有用户自定义用途；保留 Value/BOM 原值。
+- 新增自定义显示属性后读取 PCB 网表，核实它是否进入与原理图的属性比对。
+  若仅用于版面的属性造成同步差异，改用有持久归属记录的丝印文本；不要改电气网表或关闭比对来掩盖差异。
 - 按当前 API 同样核对原生位号属性；用两条文本显示时分别重读，不能只检查值。
 - 不适用时读取 `PCB_PrimitiveString` 当前 create/modify/get/delete 签名创建受管理文本。
   核实 layer、mirror、reverse 和父子关系；不要臆造 `showValue()` 一类接口。
