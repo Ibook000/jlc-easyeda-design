@@ -2,7 +2,7 @@
 
 给 AI Agent 用的嘉立创 EDA 专业版设计 Skill，把原理图、电气审核、PCB 布局布线、GND 铺铜、器件值丝印和交付检查放进同一套流程。
 
-**当前版本：1.0.1** · **MIT License**
+**当前版本：1.0.2** · **MIT License**
 
 ## 原理图示例
 
@@ -76,6 +76,11 @@ git clone https://github.com/Ibook000/jlc-easyeda-design.git "$HOME/.agents/skil
 完成后报告实际执行的检查和剩余问题。
 ```
 
+布局整理优先利用已经确认有空间的模块下方，核对器件高度与装配间隙；从焊盘中心出线，
+转角优先 45°，清除栅格布线留下的小台阶、重复并线和多余泪滴。
+GND 主要依靠连续铺铜，重建后逐个检查地焊盘与过孔是否真正连通。
+具体做法见 [布局与线形整理](references/pcb-layout-refinement.md)。
+
 **只补器件值丝印：**
 
 ```text
@@ -135,6 +140,7 @@ jlc-easyeda-design/
 │   ├── api-workflow.md              # 桥接连接与 API 适配
 │   ├── schematic-rules.md           # 原理图与电气审核
 │   ├── pcb-rules.md                 # PCB 布局、布线与铺铜
+│   ├── pcb-layout-refinement.md     # 模块下方利用、45° 转角与线形整理
 │   ├── silkscreen-rules.md          # 器件值丝印规则
 │   ├── silkscreen-data.md           # 脚本输入输出格式
 │   ├── verification.md              # 验收与交付检查
