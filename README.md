@@ -4,11 +4,25 @@
 
 **当前版本：1.0.3** · **MIT License**
 
-## 原理图示例
+## 先看效果
 
-[![原理图整理效果示例](https://raw.githubusercontent.com/Ibook000/jlc-easyeda-design/main/assets/examples/schematic-keyboard.png)](https://github.com/Ibook000/jlc-easyeda-design/blob/main/assets/examples/schematic-keyboard.png)
+**语音快捷键盘电路案例**：从原理图到 PCB 布局、布线、GND 铺铜，再到客户端三维预览。
 
-原理图整理效果示例，点击图片查看原图。
+[![嘉立创EDA设计流程加速预览，点击观看完整视频](docs/media/preview.gif)](https://github.com/Ibook000/jlc-easyeda-design/raw/refs/heads/main/docs/media/design-process.mp4)
+
+**[▶ 观看设计流程视频 · 45 秒 / 1080p / 含音乐](https://github.com/Ibook000/jlc-easyeda-design/raw/refs/heads/main/docs/media/design-process.mp4)** · [打开 MP4 文件页](docs/media/design-process.mp4)
+
+GIF 是静音、5 倍速预览。视频前段依据工程数据制作流程动画，最后 10 秒为嘉立创EDA客户端真实 3D 旋转录屏。
+
+### 原理图、PCB 与三维效果
+
+[![语音快捷键盘原理图：模块分区、连接与网络标签](assets/examples/schematic-keyboard.png)](assets/examples/schematic-keyboard.png)
+
+| PCB 布局、布线与铺铜 | 客户端 3D 预览 |
+| --- | --- |
+| [![PCB 铜层、器件布局和器件值丝印](docs/media/keyboard-pcb.png)](docs/media/keyboard-pcb.png) | [![嘉立创EDA客户端中的键盘PCB三维预览](docs/media/keyboard-3d.png)](docs/media/keyboard-3d.png) |
+
+点击图片查看原图。以上展示项目设计结果与流程，视频并非历史操作的连续录屏；工程检查范围和媒体来源见 [素材说明](docs/media/README.md)。
 
 ## 能做什么
 
@@ -152,6 +166,18 @@ jlc-easyeda-design/
 ├── scripts/silkscreen_values.py     # 丝印文本计划与读回核对
 └── LICENSE
 ```
+
+## 配合另外两个技能
+
+这三个技能可以串起一个硬件产品的制作与展示：
+
+| 阶段 | 技能 | 主要结果 |
+| --- | --- | --- |
+| 电路设计 | **当前仓库：jlc-easyeda-design** | 原理图、PCB 和工程检查记录 |
+| 外壳设计 | [product-enclosure-design](https://github.com/Ibook000/product-enclosure-design) | 装配模型、开孔、分件 STL 与检查报告 |
+| 产品展示 | [product-showcase-film](https://github.com/Ibook000/product-showcase-film) | 三维运镜、拆装与功能动效视频 |
+
+外壳与视频技能可独立使用，按任务需要配合。
 
 ## 来源与许可
 
