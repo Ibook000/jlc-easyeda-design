@@ -8,9 +8,9 @@
 
 **语音快捷键盘电路案例**：从原理图到 PCB 布局、布线、GND 铺铜，再到客户端三维预览。
 
-[![嘉立创EDA设计流程加速预览，点击观看完整视频](docs/media/preview.gif)](https://github.com/Ibook000/jlc-easyeda-design/raw/refs/heads/main/docs/media/design-process.mp4)
+[![嘉立创EDA设计流程加速预览，点击观看完整视频](docs/media/preview.gif)](https://raw.githubusercontent.com/Ibook000/jlc-easyeda-design/main/docs/media/design-process.mp4)
 
-**[▶ 观看设计流程视频 · 45 秒 / 1080p / 含音乐](https://github.com/Ibook000/jlc-easyeda-design/raw/refs/heads/main/docs/media/design-process.mp4)** · [打开 MP4 文件页](docs/media/design-process.mp4)
+**[▶ 观看设计流程视频 · 45 秒 / 1080p / 含音乐](https://raw.githubusercontent.com/Ibook000/jlc-easyeda-design/main/docs/media/design-process.mp4)** · [打开 MP4 文件页](docs/media/design-process.mp4)
 
 GIF 是静音、5 倍速预览。视频前段依据工程数据制作流程动画，最后 10 秒为嘉立创EDA客户端真实 3D 旋转录屏。
 
